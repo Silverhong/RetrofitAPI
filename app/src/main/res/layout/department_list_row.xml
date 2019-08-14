@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/recycler_ripple"
+        >
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignBounds"
+            android:useDefaultMargins="false">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="right"
+                android:text="Department : "
+                android:textColor="#494848"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvDepartment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kimhong Vuthy"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="right"
+                android:text="ID : "
+                android:textColor="#494848"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvDepartmentId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:text="Phnom Penh, Cambodia"
+                android:textSize="20sp" />
+        </GridLayout>
+        <View
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#B3B3B3" />
+
+    </LinearLayout>
+
+</LinearLayout>
